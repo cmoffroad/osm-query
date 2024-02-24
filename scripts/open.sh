@@ -1,0 +1,1 @@
+open https://umap.openstreetmap.fr/en/map/off-road-chiang-mai_1028347

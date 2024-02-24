@@ -7,11 +7,12 @@
     "url": "https://github.com/cmoffroad/osm-gradients.git"
   },
   "scripts": {
-    "start": "npm run download && npm run extract && npm run query && npm run commit",
+    "start": "npm run download && npm run extract && npm run query && npm run commit && npm run open",
     "download": "sh scripts/download.sh",
     "extract": "sh scripts/extract.sh",
     "query": "sh scripts/query.sh",
-    "commit": "sh scripts/commit.sh"
+    "commit": "sh scripts/commit.sh",
+    "open": "sh scripts/open.sh"
   },
   "author": "Julien ETIENNE <etienne.julien@gmail.com>",
   "license": "MIT",
