@@ -1,0 +1,1 @@
+curl -k -o ./data/thailand-latest.osm.pbf https://download.geofabrik.de/asia/thailand-latest.osm.pbf

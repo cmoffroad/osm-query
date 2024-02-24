@@ -1,0 +1,1 @@
+osmium extract --bbox=98.29,18.18,99.59,19.7 --set-bounds --strategy=smart ./data/thailand-latest.osm.pbf  --output ./data/chiangmai-latest.osm.pbf --overwrite

@@ -6,18 +6,13 @@
     "type": "git",
     "url": "https://github.com/cmoffroad/osm-gradients.git"
   },
-  "bin": {
-    "osm-gradients": "src/index.js"
+  "scripts": {
+    "start": "npm run download && npm run extract && npm run query && npm run commit",
+    "download": "sh scripts/download.sh",
+    "extract": "sh scripts/extract.sh",
+    "query": "sh scripts/query.sh",
+    "commit": "sh scripts/commit.sh"
   },
-  "keywords": [
-    "openstreetmap",
-    "osm",
-    "gradient",
-    "slope",
-    "elevation",
-    "geojson",
-    "kml"
-  ],
   "author": "Julien ETIENNE <etienne.julien@gmail.com>",
   "license": "MIT",
   "dependencies": {
